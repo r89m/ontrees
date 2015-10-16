@@ -4,8 +4,15 @@ An unoffical module for interacting with the [OnTrees](https://www.ontrees.com) 
 Allows you to retrieve a list of your linked banks, linked accounts. You can also refresh your account balances
 and retrieve a list of past transactions (limited to 90 days)
 
+## Installation ##
+To install, just download the zip file, extract it and navigate to it.
+
+Then run ```python setup.py install``` and you're done.
+
+To get up and running quickly, edit ```ontrees_example.py``` to match your credentials and run ```python ontrees_example.py```
+
 ## Example ##
-Here's a simple example that refreshes your account data, lists accounts and transactions.
+Here's a simple example that refreshes your account data and then lists your accounts and transactions.
 ```Python
 from time import sleep
 
