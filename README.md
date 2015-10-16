@@ -35,8 +35,8 @@ print "{0} banks refreshed".format(refresh_count)
 # wait 60 seconds if there are accounts being refreshed
 if refresh_count > 0:
     print "Waiting 60 seconds to allow all banks to have been refreshed. " \
-          "You could be cleverer than me here, by calling get_links() and checking the LastRefreshTime " \
-          "but I'm okay with waiting."
+          "You could be cleverer than me here, by calling get_links() " \
+          "and checking the LastRefreshTime but I'm okay with waiting."
     sleep(60)
     # Refresh linked banks
     linked_banks = otc.get_linked_banks()
